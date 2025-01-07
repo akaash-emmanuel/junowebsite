@@ -1,3 +1,5 @@
+{/*holder code */}
+
 import React from 'react';
 
 const Payment = () => {

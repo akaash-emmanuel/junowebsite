@@ -6,7 +6,7 @@ import Layout from './components/Layout';
 import Home from './pages/Home';
 import Options from './pages/Options';
 import SignUp from './pages/SignUp';
-import Login from './pages/Login';
+import SignIn from './pages/SignIn';
 import AboutUs from './pages/AboutUs';
 import CustomerService from './pages/CustomerService';
 import Payment from './pages/Payment';
@@ -29,7 +29,7 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/options" element={<Options />} />
             <Route path="/signup" element={<SignUp />} />
-            <Route path="/login" element={<Login />} />
+            <Route path="/signin" element={<SignIn />} />
             <Route path="/about" element={<AboutUs />} />
             <Route path="/customer-service" element={<CustomerService />} />
             <Route path="/payment" element={<Payment />} />

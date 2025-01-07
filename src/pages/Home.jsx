@@ -184,6 +184,8 @@ const Home = () => {
         is simple: bring the power of design to your wardrobe, your way.
       </div>
 
+      
+
       {/* Explore Button */}
       <div
         style={{
